@@ -1,0 +1,69 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009"
+order: 6
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Markt"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Kirche"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Handel"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Religion"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Strasse"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Der Eingang in d. Helmhaus u.d. Grossm&uuml;nster / L'Entr&eacute; de Helmhaus et la Cath&eacute;drale</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=6757,2499,1145,1876"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6756.54069,2499.46131h572.32841v0h572.32841v938.20374v938.20374h-572.32841h-572.32841v-938.20374z\"  id=\"rectangle_e2b7ed91-0e2f-46e0-9feb-1550d513b934\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/15509008/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T09:04:37.601Z",
+    "@id": "de7f21a3-0fa9-4cb2-9a98-d711e5456aa7.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
