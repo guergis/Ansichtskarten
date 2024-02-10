@@ -4,12 +4,43 @@ order: 9
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "368391f8-5816-4532-9577-25376d5586ae.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
+    ],
+    "oa:annotatedAt": "2024-02-10T09:24:00.736Z",
+    "oa:annotatedBy": [
+        "guergis"
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=5102,4938,1657,1246"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5101.86613,4937.89239h828.38902v0h828.38902v623.17048v623.17048h-828.38902h-828.38902v-623.17048z\"  id=\"rectangle_b1c33567-788d-40ee-805e-9c8310318b63\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"24.31664\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/15509008/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
     ],
     "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Der Gasthof zum weissen R&ouml;ssli an der Schiffl&auml;nde / L'H&ocirc;tel du Cheval blanc &agrave; l'Abord</p>",
+            "format": "text/html"
+        },
         {
             "@type": "oa:Tag",
             "chars": "Gasthof"
@@ -39,35 +70,9 @@ order: 9
             "chars": "Boot"
         },
         {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Der Gasthof zum weissen R&ouml;ssli an der Schiffl&auml;nde / L'H&ocirc;tel du Cheval blanc &agrave; l'Abord</p>"
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
         }
     ],
-    "on": [
-        {
-            "@type": "oa:SpecificResource",
-            "full": "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009",
-            "selector": {
-                "@type": "oa:Choice",
-                "default": {
-                    "@type": "oa:FragmentSelector",
-                    "value": "xywh=5102,4938,1657,1246"
-                },
-                "item": {
-                    "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5101.86613,4937.89239h828.38902v0h828.38902v623.17048v623.17048h-828.38902h-828.38902v-623.17048z\"  id=\"rectangle_b1c33567-788d-40ee-805e-9c8310318b63\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                }
-            },
-            "within": {
-                "@id": "https://www.e-rara.ch/i3f/v20/15509008/manifest",
-                "@type": "sc:Manifest"
-            }
-        }
-    ],
-    "oa:annotatedAt": "2024-02-10T09:24:00.736Z",
-    "@id": "368391f8-5816-4532-9577-25376d5586ae.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "oa:serializedAt": "2024-02-10T09:35:40.112Z"
 }
