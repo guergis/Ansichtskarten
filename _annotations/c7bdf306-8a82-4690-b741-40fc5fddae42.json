@@ -4,12 +4,43 @@ order: 7
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "c7bdf306-8a82-4690-b741-40fc5fddae42.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
+    ],
+    "oa:annotatedAt": "2024-02-10T09:10:43.990Z",
+    "oa:annotatedBy": [
+        "guergis"
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=6762,4383,1162,1843"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6761.85498,4383.03271h580.93972v0h580.93972v921.67168v921.67168h-580.93972h-580.93972v-921.67168z\"  id=\"rectangle_67ad9a34-8f83-49a1-ba0b-1f40a3b4a87f\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"6.54545\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/15509008/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
     ],
     "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Der Platz z. Viechmarktg.d. hohe Promenade / La Place du march&eacute; au b&eacute;tail vers la haute promenade</p>",
+            "format": "text/html"
+        },
         {
             "@type": "oa:Tag",
             "chars": "Park"
@@ -31,35 +62,9 @@ order: 7
             "chars": "H\u00fcgel"
         },
         {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Der Platz z. Viechmarktg.d. hohe Promenade / La Place de march&eacute; ... vers la haute promenade</p>"
+            "@type": "oa:Tag",
+            "chars": "Platz"
         }
     ],
-    "on": [
-        {
-            "@type": "oa:SpecificResource",
-            "full": "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009",
-            "selector": {
-                "@type": "oa:Choice",
-                "default": {
-                    "@type": "oa:FragmentSelector",
-                    "value": "xywh=6762,4383,1162,1843"
-                },
-                "item": {
-                    "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M6761.85498,4383.03271h580.93972v0h580.93972v921.67168v921.67168h-580.93972h-580.93972v-921.67168z\"  id=\"rectangle_67ad9a34-8f83-49a1-ba0b-1f40a3b4a87f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                }
-            },
-            "within": {
-                "@id": "https://www.e-rara.ch/i3f/v20/15509008/manifest",
-                "@type": "sc:Manifest"
-            }
-        }
-    ],
-    "oa:annotatedAt": "2024-02-10T09:10:43.990Z",
-    "@id": "c7bdf306-8a82-4690-b741-40fc5fddae42.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "oa:serializedAt": "2024-02-10T09:13:17.435Z"
 }
