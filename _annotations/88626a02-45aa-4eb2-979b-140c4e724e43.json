@@ -4,12 +4,43 @@ order: 5
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "88626a02-45aa-4eb2-979b-140c4e724e43.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
+    ],
+    "oa:annotatedAt": "2024-02-10T12:18:52.422Z",
+    "oa:annotatedBy": [
+        "guergis"
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/14544016/canvas/14544017",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=4348,821,1052,987"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4348.28366,821.08415h526.15799v0h526.15799v493.33561v493.33561h-526.15799h-526.15799v-493.33561z\"  id=\"rectangle_c9776ff8-b286-4f89-b442-6747d9e9e1a6\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"2.92222\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/14544016/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
     ],
     "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Grossm&uuml;nster</p>",
+            "format": "text/html"
+        },
         {
             "@type": "oa:Tag",
             "chars": "Kirche"
@@ -24,38 +55,12 @@ order: 5
         },
         {
             "@type": "oa:Tag",
-            "chars": "Strasse"
+            "chars": "Helmhaus"
         },
         {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Grossm&uuml;nster</p>"
+            "@type": "oa:Tag",
+            "chars": "M\u00fcnsterbr\u00fccke"
         }
     ],
-    "on": [
-        {
-            "@type": "oa:SpecificResource",
-            "full": "https://www.e-rara.ch/i3f/v20/14544016/canvas/14544017",
-            "selector": {
-                "@type": "oa:Choice",
-                "default": {
-                    "@type": "oa:FragmentSelector",
-                    "value": "xywh=4348,821,1052,987"
-                },
-                "item": {
-                    "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4348.28366,821.08415h526.15799v0h526.15799v493.33561v493.33561h-526.15799h-526.15799v-493.33561z\"  id=\"rectangle_c9776ff8-b286-4f89-b442-6747d9e9e1a6\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                }
-            },
-            "within": {
-                "@id": "https://www.e-rara.ch/i3f/v20/14544016/manifest",
-                "@type": "sc:Manifest"
-            }
-        }
-    ],
-    "oa:annotatedAt": "2024-02-10T12:18:52.422Z",
-    "@id": "88626a02-45aa-4eb2-979b-140c4e724e43.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "oa:serializedAt": "2024-02-10T12:22:22.175Z"
 }
