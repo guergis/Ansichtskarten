@@ -75,6 +75,12 @@
             "title": "Erinnerung an Z\u00fcrich",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard url='https://guergis.github.io/Ansichtskarten/annotations/i3f-v20-14544016-14544017-list.json' styling='zoom: -3946.749999999999,0,13685.499999999998,6059.999999999999;'></iiif-storyboard>",
+            "title": "Erinnerung an Z\u00fcrich",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
