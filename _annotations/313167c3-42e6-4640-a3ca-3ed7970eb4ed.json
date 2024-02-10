@@ -4,16 +4,15 @@ order: 12
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "313167c3-42e6-4640-a3ca-3ed7970eb4ed.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Die Kronenporte gegen die Stadt / La Porte</p>"
-        }
+    "oa:annotatedAt": "2024-02-10T09:31:25.140Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -27,7 +26,7 @@ order: 12
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M600.28709,2541.65025h589.21496v0h589.21496v938.20374v938.20374h-589.21496h-589.21496v-938.20374z\"  id=\"rectangle_f4f93f0a-0e8e-4d01-bba2-fac221125993\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M600.28709,2541.65025h589.21496v0h589.21496v938.20374v938.20374h-589.21496h-589.21496v-938.20374z\"  id=\"rectangle_f4f93f0a-0e8e-4d01-bba2-fac221125993\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.30909\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +35,24 @@ order: 12
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-10T09:31:25.140Z",
-    "@id": "313167c3-42e6-4640-a3ca-3ed7970eb4ed.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Die Kronenporte gegen die Stadt / La Porte sup&eacute;rieure (Kronenporte) de la ville</p>",
+            "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Stadtbefestigung"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Tor"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Strasse"
+        }
+    ],
+    "oa:serializedAt": "2024-02-10T09:33:16.576Z"
 }
