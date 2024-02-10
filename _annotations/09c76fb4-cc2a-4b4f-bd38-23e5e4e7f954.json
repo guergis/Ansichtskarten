@@ -1,0 +1,61 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031"
+order: 3
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Bahnhof"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Eisenbahn"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Transport"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Bahnhof / Cour du chemin de fer</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=2240,117,995,805"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2385.68173,234.67632c91.87452,-67.59431 221.47841,-117.9295 351.71036,-117.86937v0v0c130.23195,0.06014 243.68583,47.1479 351.71036,117.86937c108.02454,70.72147 150.01231,178.48733 145.6832,284.56182c-4.3291,106.07449 -54.97507,210.45762 -145.6832,284.56182c-90.70813,74.10421 -221.47841,117.9295 -351.71036,117.86937c-130.23195,-0.06014 -259.92557,-44.00571 -351.71036,-117.86937c-91.7848,-73.86366 -145.66077,-177.6454 -145.6832,-284.56182c-0.02243,-106.91642 53.80868,-216.96751 145.6832,-284.56182z\"  id=\"ellipse_3fce3963-5957-415f-9f81-378d387135a8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/14544030/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T09:58:15.908Z",
+    "@id": "09c76fb4-cc2a-4b4f-bd38-23e5e4e7f954.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
