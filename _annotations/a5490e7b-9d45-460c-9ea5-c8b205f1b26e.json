@@ -4,16 +4,15 @@ order: 4
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "a5490e7b-9d45-460c-9ea5-c8b205f1b26e.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Die Wasserkirche gegen Meise / La biblioth&eacute;que (Wasserkirche) vers la Meise</p>"
-        }
+    "oa:annotatedAt": "2024-02-10T08:45:12.038Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -27,7 +26,7 @@ order: 4
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5096.50928,687.71958h838.53636v0h838.53636v626.83423v626.83423h-838.53636h-838.53636v-626.83423z\"  id=\"rectangle_2d2dbe57-76a1-4381-900a-de8a57b996a3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M5096.50928,687.71958h838.53636v0h838.53636v626.83423v626.83423h-838.53636h-838.53636v-626.83423z\"  id=\"rectangle_2d2dbe57-76a1-4381-900a-de8a57b996a3\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"11.31055\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +35,36 @@ order: 4
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-10T08:45:12.038Z",
-    "@id": "a5490e7b-9d45-460c-9ea5-c8b205f1b26e.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Die Wasserkirche gegen Meise / La biblioth&eacute;que (Wasserkirche) vers la Meisen</p>",
+            "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Bibliothek"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Kirche"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Zunfthaus"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Limmat"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Boot"
+        }
+    ],
+    "oa:serializedAt": "2024-02-10T08:48:47.287Z"
 }
