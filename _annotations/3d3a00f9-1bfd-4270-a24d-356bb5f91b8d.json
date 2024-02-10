@@ -1,0 +1,65 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/11736705/canvas/11736706"
+order: 9
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Ansicht"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Stadt"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Landschaft"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Natur"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Ansicht von Z&uuml;rich von</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/11736705/canvas/11736706",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1461,1221,4097,3543"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1460.67711,1220.55832h2048.38661v0h2048.38661v1771.48596v1771.48596h-2048.38661h-2048.38661v-1771.48596z\"  id=\"rectangle_d5e7f617-80ae-4f4f-b531-c350204d65b5\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/11736705/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T11:55:53.159Z",
+    "@id": "3d3a00f9-1bfd-4270-a24d-356bb5f91b8d.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
