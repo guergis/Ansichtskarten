@@ -1,0 +1,85 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009"
+order: 11
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Gasthof"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Hotel"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Unterkunft"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Polizei"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Wache"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Sicherheit"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Schutz"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Platz"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Strasse"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Limmat"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Der Gasthof zum Schwert gegen die Hauptwache / L'H&ocirc;tel de l'Ep&eacute;e vers la Corps de Garde</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1775,4947,1667,1256"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1775.4488,4947.13216h833.27518v0h833.27518v628.05664v628.05664h-833.27518h-833.27518v-628.05664z\"  id=\"rectangle_db63d79d-8365-434e-8fa1-db66c44a042d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/15509008/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T09:30:15.800Z",
+    "@id": "d677fed2-2e69-4ba5-b3d5-392cd3339a28.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
