@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "Souvenir de Z\u00fcrich",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-storyboard annotationurl='https://guergis.github.io/Ansichtskarten/annotations/i3f-v20-11736705-11736706-list.json'></iiif-storyboard>",
+            "title": "Ansicht von Z\u00fcrich von der Nordseite",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
