@@ -1,0 +1,65 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/14544016/canvas/14544017"
+order: 7
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Post"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Platz"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Strasse"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Paradeplatz"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Poststrasse</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/14544016/canvas/14544017",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=4345,3716,1047,984"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4345.25447,3716.46913h523.49292v0h523.49292v491.93295v491.93295h-523.49292h-523.49292v-491.93295z\"  id=\"rectangle_d4724986-db50-493b-a00f-84d2af62884c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/14544016/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T12:25:18.109Z",
+    "@id": "0fe6efe0-c382-409d-a738-72bbc6b1c06c.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
