@@ -1,0 +1,53 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009"
+order: 8
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Freizeit"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Soziales Leben"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Das Casino / La Casino</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=3444,4955,1650,1233"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3444.48278,4955.48243h825.13158v0h825.13158v616.65561v616.65561h-825.13158h-825.13158v-616.65561z\"  id=\"rectangle_cbf9fdeb-dd9d-4bff-9c0e-ef1540891bce\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/15509008/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T09:15:56.639Z",
+    "@id": "5116ad36-c11e-44d9-bc48-9258f35c5ba1.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
