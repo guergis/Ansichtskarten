@@ -1,0 +1,65 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031"
+order: 6
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Hotel"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Unterkunft"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Platz"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Strasse"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Hotel Baur / H&ocirc;tel Baur</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1069,1607,1191,809"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1114.25105,2293.54526l77.03511,45.52075l122.55585,38.51755l133.06064,21.00957l126.05745,14.00638l129.55905,3.5016l119.05426,-14.00638l129.55905,-28.01277l105.04787,-31.51436l112.05107,-52.52394l52.52394,-73.53351l31.51436,-87.5399l7.00319,-150.56862l-7.00319,-115.55266l-42.01915,-101.54628l-80.5367,-52.52394l-112.05107,-63.02872l-84.0383,-38.51755l-108.54947,42.01915l-80.5367,24.51117l-59.52713,-42.01915l-70.03192,10.50479l-52.52394,31.51436l-52.52394,-28.01277h-56.02553l-45.52075,-21.00957h-49.02234l-73.53351,24.51117l-56.02553,56.02553l-63.02872,45.52075l-56.02553,45.52075l-10.50479,77.03511l-14.00638,101.54628l-7.00319,98.04468l-10.50479,112.05107z\"  id=\"rough_path_b6c63b45-ef4a-4928-9225-1af81a4e77fc\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/14544030/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T10:44:57.919Z",
+    "@id": "4155d4df-d3ea-45a8-b790-6e3638f4a557.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
