@@ -9,6 +9,24 @@
             "title": "Ansicht von Z\u00fcrich von der Nordseite",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='i3f-v20-14544016-14544017-list.json'></iiif-storyboard>",
+            "title": "Erinnerung an Z\u00fcrich",
+            "description": "",
+            "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='i3f-v20-14544030-14544031-list.json'></iiif-storyboard>",
+            "title": "Souvenir de Z\u00fcrich",
+            "description": "",
+            "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='i3f-v20-15509008-15509009-list.json'></iiif-storyboard>",
+            "title": "Ansicht der Stadt Z\u00fcrich und der inneren Theile derselben",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
