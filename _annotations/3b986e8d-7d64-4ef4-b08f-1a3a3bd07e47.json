@@ -4,12 +4,43 @@ order: 5
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "3b986e8d-7d64-4ef4-b08f-1a3a3bd07e47.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
+    ],
+    "oa:annotatedAt": "2024-02-10T10:39:10.564Z",
+    "oa:annotatedBy": [
+        "guergis"
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=98,1531,998,945"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M243.63376,1669.16576c92.14206,-79.38402 222.12336,-138.49862 352.73455,-138.42799v0v0c130.61119,0.07063 244.39544,55.37138 352.73455,138.42799c108.33911,83.05661 150.44915,209.61886 146.10744,334.19473c-4.34171,124.57587 -55.13517,247.16536 -146.10744,334.19473c-90.97227,87.02937 -222.12336,138.49862 -352.73455,138.42799c-130.61119,-0.07063 -260.68247,-51.68113 -352.73455,-138.42799c-92.05208,-86.74686 -146.08494,-208.63009 -146.10744,-334.19473c-0.0225,-125.56464 53.96538,-254.81071 146.10744,-334.19473z\"  id=\"ellipse_e4527170-205f-4a56-82d6-4e6167ad5230\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"21.78273\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/14544030/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
     ],
     "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>T&ouml;chterschule beim Grossm&uuml;nster / &Eacute;cole des filles</p>",
+            "format": "text/html"
+        },
         {
             "@type": "oa:Tag",
             "chars": "Schule"
@@ -25,37 +56,7 @@ order: 5
         {
             "@type": "oa:Tag",
             "chars": "Bildung"
-        },
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>T&ouml;chterschule beim Grossm&uuml;nster / &Eacute;cole des filles</p>"
         }
     ],
-    "on": [
-        {
-            "@type": "oa:SpecificResource",
-            "full": "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031",
-            "selector": {
-                "@type": "oa:Choice",
-                "default": {
-                    "@type": "oa:FragmentSelector",
-                    "value": "xywh=98,1531,998,945"
-                },
-                "item": {
-                    "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M243.63376,1669.16576c92.14206,-79.38402 222.12336,-138.49862 352.73455,-138.42799v0v0c130.61119,0.07063 244.39545,55.37137 352.73455,138.42799c108.33911,83.05661 150.44914,209.61886 146.10744,334.19473c-4.34171,124.57587 -55.13516,247.16536 -146.10744,334.19473c-90.97227,87.02937 -222.12336,138.49862 -352.73455,138.42799c-130.61119,-0.07063 -260.68248,-51.68113 -352.73455,-138.42799c-92.05208,-86.74686 -146.08494,-208.63009 -146.10744,-334.19473c-0.0225,-125.56464 53.96538,-254.81071 146.10744,-334.19473z\"  id=\"ellipse_e4527170-205f-4a56-82d6-4e6167ad5230\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                }
-            },
-            "within": {
-                "@id": "https://www.e-rara.ch/i3f/v20/14544030/manifest",
-                "@type": "sc:Manifest"
-            }
-        }
-    ],
-    "oa:annotatedAt": "2024-02-10T10:39:10.564Z",
-    "@id": "3b986e8d-7d64-4ef4-b08f-1a3a3bd07e47.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "oa:serializedAt": "2024-02-10T10:47:54.765Z"
 }
