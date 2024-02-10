@@ -1,0 +1,57 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009"
+order: 3
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Denkmal"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Park"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Salomon Gessners Denkmal / Le monument de Salomon Gessner</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=3445,704,1652,1241"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3445.38875,703.9449h826.17404v0h826.17404v620.65315v620.65315h-826.17404h-826.17404v-620.65315z\"  id=\"rectangle_4f5ef1d8-19db-466b-9696-c94e2486217a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/15509008/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T08:42:44.318Z",
+    "@id": "ac6a92a5-863c-48f5-9cca-c6bdda565fcc.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
