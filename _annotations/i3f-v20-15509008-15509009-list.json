@@ -1,0 +1,9 @@
+---
+canvas_id: "https://www.e-rara.ch/i3f/v20/15509008/canvas/15509009"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "oa:AnnotationList",
+"resources": [{{ annotations | join: ","}}] }
