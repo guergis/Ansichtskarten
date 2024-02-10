@@ -1,0 +1,69 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/11736705/canvas/11736706"
+order: 8
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Aussicht"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Stadt"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Park"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Freizeit"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Limmat"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Aussicht von der Bauschanze</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/11736705/canvas/11736706",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=4169,4758,1347,1120"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4168.92541,4757.98408h673.33502v0h673.33502v559.9762v559.9762h-673.33502h-673.33502v-559.9762z\"  id=\"rectangle_f800b6ea-73dd-40ee-a4f9-fbab38749a7a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/11736705/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T11:54:15.599Z",
+    "@id": "801b5436-01f8-4c6c-b42d-895a1b7d59a8.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
