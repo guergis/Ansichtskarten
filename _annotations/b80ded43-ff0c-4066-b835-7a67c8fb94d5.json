@@ -7,12 +7,14 @@ order: 13
     "@id": "b80ded43-ff0c-4066-b835-7a67c8fb94d5.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
     "oa:annotatedAt": "2024-02-10T09:34:01.174Z",
     "oa:annotatedBy": [
         "guergis"
     ],
+    "oa:serializedAt": "2024-02-10T09:37:12.745Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -25,7 +27,7 @@ order: 13
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1788.59704,4935.98075h2488.11157v0h2488.11157v-1498.68424v-1498.68424h-2488.11157h-2488.11157v1498.68424z\"  id=\"rectangle_735c9c34-ee2e-4fbe-8ab7-013bd6791b84\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"11.31055\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1788.59704,4935.98075h2488.11157v0h2488.11157v-1498.68424v-1498.68424h-2488.11157h-2488.11157v1498.68424z\"  id=\"rectangle_735c9c34-ee2e-4fbe-8ab7-013bd6791b84\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"8.14359\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -37,9 +39,28 @@ order: 13
     "resource": [
         {
             "@type": "dctypes:Text",
-            "chars": "<p>Von derobern Strasse gegen den H...berg aufgenommen /</p>",
+            "chars": "<p>Von derobern Strasse gegen den H...berg aufgenommen / Prise de la route sup&eacute;rieur vers le H...berg</p>",
             "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Strasse"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Landschaft"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Stadt"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Ansicht"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
         }
-    ],
-    "oa:serializedAt": "2024-02-10T09:34:43.428Z"
+    ]
 }
