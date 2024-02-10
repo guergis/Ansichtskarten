@@ -4,25 +4,15 @@ order: 9
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "bf14d69c-6811-4bd7-bc82-0f22c5ea56d5.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
-    "resource": [
-        {
-            "@type": "oa:Tag",
-            "chars": "Hotel"
-        },
-        {
-            "@type": "oa:Tag",
-            "chars": "Unterkunft"
-        },
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>H&ocirc;tel Baur au Lac</p>"
-        }
+    "oa:annotatedAt": "2024-02-10T12:27:18.274Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -36,7 +26,7 @@ order: 9
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M460.87964,3724.88521h505.9596v0h505.9596v476.15296v476.15296h-505.9596h-505.9596v-476.15296z\"  id=\"rectangle_82b24b0b-2b01-48e2-a413-9bb1450d4fc3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M460.87964,3724.88521h505.9596v0h505.9596v476.15296v476.15296h-505.9596h-505.9596v-476.15296z\"  id=\"rectangle_82b24b0b-2b01-48e2-a413-9bb1450d4fc3\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"21.03998\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -45,9 +35,28 @@ order: 9
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-10T12:27:18.274Z",
-    "@id": "bf14d69c-6811-4bd7-bc82-0f22c5ea56d5.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>H&ocirc;tel Baur au Lac</p>",
+            "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Hotel"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Unterkunft"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Hotel Baur"
+        }
+    ],
+    "oa:serializedAt": "2024-02-10T12:27:43.477Z"
 }
