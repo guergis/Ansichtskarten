@@ -4,12 +4,43 @@ order: 7
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "03e9e419-6ce6-4cda-ac3c-9963d3bef256.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
+    ],
+    "oa:annotatedAt": "2024-02-10T10:46:58.315Z",
+    "oa:annotatedBy": [
+        "guergis"
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=2237,1513,933,948"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3033.07983,1651.70306c-86.13549,-79.6363 -207.64355,-138.93875 -329.74043,-138.8679v0v0c-122.09688,0.07085 -228.46375,55.54734 -329.74043,138.8679c-101.27668,83.32056 -140.64164,210.28501 -136.58296,335.25677c4.05868,124.97176 51.541,247.95083 136.58296,335.25677c85.04196,87.30594 207.64355,138.93875 329.74043,138.8679c122.09688,-0.07085 243.68906,-51.84536 329.74043,-138.8679c86.05137,-87.02254 136.56193,-209.29309 136.58296,-335.25677c0.02103,-125.96368 -50.44747,-255.62047 -136.58296,-335.25677z\"  id=\"ellipse_77d75fff-8af5-4dd1-9353-44cbd29e1aa7\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"21.00957\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/14544030/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
     ],
     "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Friedhof / Cimeti&egrave;re</p>",
+            "format": "text/html"
+        },
         {
             "@type": "oa:Tag",
             "chars": "Friedhof"
@@ -27,35 +58,13 @@ order: 7
             "chars": "Landschaft"
         },
         {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Friedhof / Cimeti&egrave;re</p>"
-        }
-    ],
-    "on": [
+            "@type": "oa:Tag",
+            "chars": "Kapelle"
+        },
         {
-            "@type": "oa:SpecificResource",
-            "full": "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031",
-            "selector": {
-                "@type": "oa:Choice",
-                "default": {
-                    "@type": "oa:FragmentSelector",
-                    "value": "xywh=2237,1513,933,948"
-                },
-                "item": {
-                    "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M3033.07983,1651.70306c-86.13549,-79.6363 -207.64354,-138.93875 -329.74043,-138.8679v0v0c-122.09688,0.07085 -228.46375,55.54734 -329.74043,138.8679c-101.27668,83.32056 -140.64164,210.28501 -136.58296,335.25677c4.05868,124.97176 51.541,247.95083 136.58296,335.25677c85.04195,87.30594 207.64354,138.93875 329.74043,138.8679c122.09688,-0.07085 243.68906,-51.84536 329.74043,-138.8679c86.05137,-87.02253 136.56193,-209.29309 136.58296,-335.25677c0.02103,-125.96367 -50.44747,-255.62047 -136.58296,-335.25677z\"  id=\"ellipse_77d75fff-8af5-4dd1-9353-44cbd29e1aa7\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
-                }
-            },
-            "within": {
-                "@id": "https://www.e-rara.ch/i3f/v20/14544030/manifest",
-                "@type": "sc:Manifest"
-            }
+            "@type": "oa:Tag",
+            "chars": "Religion"
         }
     ],
-    "oa:annotatedAt": "2024-02-10T10:46:58.315Z",
-    "@id": "03e9e419-6ce6-4cda-ac3c-9963d3bef256.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "oa:serializedAt": "2024-02-10T10:47:20.156Z"
 }
