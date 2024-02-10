@@ -1,0 +1,57 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031"
+order: 1
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Schule"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Bildung"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Kantonsschule R&auml;mib&uuml;hl / &Eacute;cole Cantonale de R&auml;mib&uuml;hl</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v20/14544030/canvas/14544031",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=97,105,1037,765"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M982.24002,217.53558c-95.72009,-64.25438 -230.74878,-112.10244 -366.43182,-112.04528v0v0c-135.68304,0.05717 -253.88572,44.81826 -366.43182,112.04528c-112.54609,67.22702 -156.29133,169.66802 -151.78103,270.50123c4.5103,100.8332 57.27615,200.05861 151.78103,270.50123c94.50488,70.44262 230.74878,112.10244 366.43182,112.04528c135.68304,-0.05717 270.80521,-41.83133 366.43182,-112.04528c95.62661,-70.21395 151.75766,-168.8677 151.78103,-270.50123c0.02337,-101.63353 -56.06094,-206.24685 -151.78103,-270.50123z\"  id=\"ellipse_af826b06-e180-42bb-87b8-6e1a105520e9\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v20/14544030/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-10T09:50:50.151Z",
+    "@id": "103a61b9-2977-4c63-857c-b8d177c0e947.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
