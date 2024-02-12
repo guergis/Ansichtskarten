@@ -14,7 +14,7 @@ order: 17
     "oa:annotatedBy": [
         "guergis"
     ],
-    "oa:serializedAt": "2024-02-12T13:58:55.759Z",
+    "oa:serializedAt": "2024-02-12T13:59:37.127Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -61,6 +61,14 @@ order: 17
         {
             "@type": "oa:Tag",
             "chars": "Freizeit"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Promenade"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Platzspitz"
         }
     ]
 }
