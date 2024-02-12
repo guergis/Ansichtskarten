@@ -4,29 +4,15 @@ order: 1
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "40f1b58f-9f92-4547-89ea-f0201db03a30.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
-    "resource": [
-        {
-            "@type": "oa:Tag",
-            "chars": "Kinder"
-        },
-        {
-            "@type": "oa:Tag",
-            "chars": "Schutz"
-        },
-        {
-            "@type": "oa:Tag",
-            "chars": "Z\u00fcrich"
-        },
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Das Waisenhaus</p>"
-        }
+    "oa:annotatedAt": "2024-02-10T11:42:13.066Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -40,7 +26,7 @@ order: 1
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M88.62203,71.00108h671.85475v0h671.85475v552.28402v552.28402h-671.85475h-671.85475v-552.28402z\"  id=\"rectangle_e2380d90-cef2-459b-89a3-59acbfa8a57c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M88.62203,71.00108h671.85475v0h671.85475v552.28402v552.28402h-671.85475h-671.85475v-552.28402z\"  id=\"rectangle_e2380d90-cef2-459b-89a3-59acbfa8a57c\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"20.1334\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -49,9 +35,28 @@ order: 1
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-10T11:42:13.066Z",
-    "@id": "40f1b58f-9f92-4547-89ea-f0201db03a30.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Das Waisenhaus</p>",
+            "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Kinder"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Schutz"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Waisenhaus"
+        }
+    ],
+    "oa:serializedAt": "2024-02-12T14:05:44.045Z"
 }
