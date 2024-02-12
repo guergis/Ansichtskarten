@@ -14,7 +14,7 @@ order: 8
     "oa:annotatedBy": [
         "guergis"
     ],
-    "oa:serializedAt": "2024-02-12T14:00:12.514Z",
+    "oa:serializedAt": "2024-02-12T14:03:41.065Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -68,11 +68,11 @@ order: 8
         },
         {
             "@type": "oa:Tag",
-            "chars": "Stadtbefestigung"
+            "chars": "Bauschanze"
         },
         {
             "@type": "oa:Tag",
-            "chars": "Bauschanze"
+            "chars": "Befestigungsanlage"
         }
     ]
 }
